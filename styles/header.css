@@ -1,0 +1,17 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0em;
+  padding: 1em;
+  background-color: lightgray;
+
+}
+
+.header-navigation a {
+  padding: 1em;
+}
+
+.header-content img {
+  max-width: 50px;
+}
