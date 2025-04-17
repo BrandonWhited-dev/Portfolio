@@ -1,10 +1,14 @@
 .footer-content {
   display: flex;
   justify-content: space-between;
-  font-size: 2em;
   margin: 0em 1em 0em 1em;
-  align-items: center;
   padding: 0;
+  font-size: 1em;
+}
+
+.footer-child-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-content img {
