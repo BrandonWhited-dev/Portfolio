@@ -11,6 +11,6 @@
   flex-direction: column;
 }
 
-.footer-content img {
-  max-width: 50px;
+.footer-links svg {
+  width: 3em;
 }

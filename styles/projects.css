@@ -1,0 +1,22 @@
+.project-container {
+  display:flex;
+  flex-direction:column;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px 2px rgba(229, 229, 229, 0.3), inset 0 0 10px 1px rgba(229, 229, 229, 0.3);
+}
+
+.project-graphic img {
+  max-height: 10em;
+}
+
+.project-info svg {
+  max-width: 1em;
+}
+
+@media (min-width: 600px){
+  .project-container{
+    display:flex;
+    flex-direction: row;
+  }
+}

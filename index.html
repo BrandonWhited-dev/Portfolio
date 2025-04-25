@@ -3,60 +3,102 @@
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="Brandon Whited's Portfolio Website">
-    <meta name="keywords" content="Brandon Whited Portsolio Software Developer Brandon-Whited Temple University Student">
+    <meta name="keywords" content="Brandon Whited Portfolio Software Developer Brandon-Whited Temple University Student">
     <meta name="author" content="Brandon Whited">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <title>Portfolio: Brandon Whited</title>
   </head>
   <body>
-    <header>
-      <div class="header-content">
-        <img class="headshot" src="https://media.licdn.com/dms/image/v2/D4E03AQFvLH9XhrG2SQ/profile-displayphoto-shrink_400_400/B4EZYiGCbqHkAg-/0/1744328730789?e=1750291200&v=beta&t=BVoMpxYbSZnCSOgmX4loEGnnKBEQlZwFDRqu_R_1UqA" alt="Headshot of Brandon Whited">
-        <div class="header-navigation">
-          <a href="#intro">Home</a>
-          <a href="#education">Education</a>
-          <a href="#projects">Projects</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-    </header>
 
-    <section id="intro">
-      <h1>Intro</h1>
+    <section id="hero">
+
+      <div class="hero-container">
+
+        <div class="hero-name">
+          <h1>Brandon Whited</h1>
+          <h2>Backend Engineer</h2>
+          <p>I build simple, reliable, and scalable code.</p>
+        </div>
+
+        <div class="hero-links">
+          <a target="_blank" href="https://github.com/BrandonWedu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path> </svg>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/brandon-whited-0a5734290/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
+          </a>
+          <a target="_blank" href="mailto:brandonsw0@proton.me">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+          </a>
+          <a target="_blank" href="file.doc">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24" fill="currentColor"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+            Download Resume
+          </a>
+        </div>
+
+      </div>
+
     </section>
 
-    <section id="education">
-      <h1>Education</h1>
+    <section id="about-me">
+
+      <div class="about-me-container">
+        <h2>About Me</h2>
+        <p>I am a graduate of IST from Temple University class of 2025.</p>
+        <p>cooking on the rest...</p>
+      </div>
+
     </section>
 
     <section id="projects">
-      <h1>Projects</h1>
-    </section>
 
-    <section id="work">
-      <h1>Work</h1>
-    </section>
+      <h2>Projects</h2>
 
-    <section id="contact">
-      <h1>Contact</h1>
+      <div class="project-container">
+        <div class="project-graphic">
+          <img src="pics/Owly.png" alt="Owly Logo">
+        </div>
+        <div class="project-info">
+          <h3>
+            <a href="">Owly
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17L17 7M7 7h10v10"/>
+              </svg>
+            </a>
+          </h3>
+          <span><em>C#|MVC Core|.NET|MySQL|BootStrap|Chat GPT 4o</em></span>
+          <p>"Owly" is an AI mental heath chatbot that helps provides Temple Students with non medical advice and resources avalible from Temple University, leveraging microservices.</p>
+        </div>
+      </div>
+
     </section>
 
     <footer>
       <hr>
       <div class="footer-content">
+
         <div class="footer-child-content">
           <span>© 2025 Brandon Whited All rights reserved.</span>
-          <span><em>Built with HTML, Javascript, styled with CSS, deployed on GitHub Pages.</em></span>
+          <span><em>Built with HTML, Javascript, CSS in NeoVim.</em></span>
         </div>
-        <div>
-          <a href="https://www.linkedin.com/in/brandon-whited-0a5734290/" target="_blank"><img src="pics/linkedin.png" alt="LinkedIn"></a>
-          <a href="https://github.com/BrandonWedu" target="_blank"><img src="pics/github.png" alt="GitHub"></a>
+
+        <div class="footer-links">
+          <a target="_blank" href="https://github.com/BrandonWedu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path> </svg>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/brandon-whited-0a5734290/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
+          </a>
         </div>
+
       </div>
     </footer>
+
   </body>
 </html>
