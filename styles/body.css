@@ -12,6 +12,10 @@ section{
   margin-bottom: 4em;
 }
 
+#footer {
+  margin-bottom: 1em;
+}
+
 a {
   text-decoration: none;
 }
@@ -33,16 +37,16 @@ h3{
 }
 
 a {
-
 color:#0275e6;
-}
-
-.arror-link {
-
 }
 
 .skill-tag {
-color:#0275e6;
+  color:#0275e6;
+  padding: .25em .5em;
+  margin: 0.2em;
+  font-size: 0.8em;
+  border: 1px solid #0275e6;
+  border-radius: 6px;
 }
 
 @media (max-width: 760px){
