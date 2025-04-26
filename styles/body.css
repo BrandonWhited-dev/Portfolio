@@ -2,9 +2,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 2em;
   padding: 0;
-  margin-bottom: 0em;
   color: #afafbf;
   background-color: #171c28;
+  width: 60%;
+  margin: 0 auto;
+}
+
+section{
+  margin-bottom: 4em;
 }
 
 a {
@@ -38,4 +43,10 @@ color:#0275e6;
 
 .skill-tag {
 color:#0275e6;
+}
+
+@media (max-width: 600px){
+body{
+  width: 90%;
+}
 }
