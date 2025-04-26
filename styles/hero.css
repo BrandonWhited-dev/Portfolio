@@ -1,7 +1,6 @@
 .hero-container{
   display:flex;
   flex-direction: column;
-  width: fit-content;
 }
 
 .hero-name{
@@ -20,6 +19,7 @@
 .hero-links{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  max-width: 200px;
 }
 
 .hero-links a {
