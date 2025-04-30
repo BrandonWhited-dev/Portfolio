@@ -11,7 +11,7 @@ This project is build using basic HTML/CSS/JS, no frameworks, no bloat, just sim
 - Open in your perferred browser
 
 ### Option 2 (Windows)
-- Download (node.js)[https://nodejs.org/en/download]
+- Download [node.js](https://nodejs.org/en/download)
 - Type ``npm install -g live-server`` in terminal
 - cd to the root project folder 
 - Type ``live-server`` in terminal 
