@@ -8,7 +8,7 @@ This project is build using basic HTML/CSS/JS, no frameworks, no bloat, just sim
 # How to run the project
 ### Option 1
 - Navigate to index.HTML
-- Open in your perferred browser
+- Open in your browser
 
 ### Option 2 (Windows)
 - Download [node.js](https://nodejs.org/en/download)
